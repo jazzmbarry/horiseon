@@ -1,12 +1,22 @@
+/* Universal setting */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body settings */
+
 body {
     background-color: #d9dcd6;
 }
+
+p {
+    font-size: 16px;
+}
+
+/* Header settings */
 
 .header {
     padding: 20px;
@@ -46,6 +56,8 @@ body {
     text-decoration: none;
 }
 
+/* Hero settings */
+
 .hero {
     height: 760px;
     width: auto;
@@ -55,15 +67,7 @@ body {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* Content Settings - Consolidated grouping, image and h2 settings */
 
 .content {
     width: 75%;
@@ -88,6 +92,20 @@ body {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* This is for the images under content */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Benefits section - Consolidated settings for groupings, h3 and images */
 
 .benefits {
     margin-right: 20px;
@@ -116,9 +134,8 @@ body {
     max-width: 150px;
 }
 
-p {
-    font-size: 16px;
-}
+/* Footer settings - Not on Mock-up but on current code
+Would you like to keep this? */
 
 .footer {
     padding: 30px;
