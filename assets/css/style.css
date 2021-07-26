@@ -16,6 +16,10 @@ p {
     font-size: 16px;
 }
 
+.seo {
+    color: #d9dcd6;
+}
+
 /* Header settings */
 
 .header {
@@ -28,10 +32,6 @@ p {
 .header h1 {
     display: inline-block;
     font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
 }
 
 .header nav {
@@ -134,16 +134,19 @@ p {
     max-width: 150px;
 }
 
-/* Footer settings - Not on Mock-up but on current code
-Would you like to keep this? */
+/* Footer settings - Not on Mock-up but on current code. Talked with instructor and he told me to keep it in
+I also added a backgroud-color to match with the header. */
 
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: #2a607c;
+    color: black;
 }
 
 .footer h2 {
     font-size: 20px;
+    color: white;
 }
